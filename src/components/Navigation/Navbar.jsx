@@ -34,8 +34,8 @@ const Navbar = () => {
                 makeGreen.current.style.height = '0%'
             }} className='menu relative lg:h-12 h-11 lg:w-[16vw] w-[50%] md:w-[35vw]'>
                 <div className=' bg-black flex flex-col items-end justify-center gap-1 h-full w-full px-5'>
-                    <div className='menuIcons h-[0.5px] w-12 bg-white'></div>
-                    <div className='menuIcons h-[0.5px] w-6 bg-white'></div>
+                    <div className='menuIcons h-[1px] w-12 bg-white z-30'></div>
+                    <div className='menuIcons h-[1px] w-6 bg-white z-30'></div>
 
                 </div>
                 <div ref={makeGreen} className=' bg-[#d3fd50] transition-all  w-full absolute h-0 top-0'></div>
